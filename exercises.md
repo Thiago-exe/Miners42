@@ -12,7 +12,7 @@ Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima.
 
 #### Presencial: Todos os sábados.
 
-## AULA 07/15/2023
+# AULA 07/15/2023
 
 1. Explique o que é o Ruby on Rails.
 
@@ -120,3 +120,93 @@ uma mídia pertence a um status.
 - Não há necessidade de criar views nesse momento.
 - Todos os models devem possuir testes unitários usando RSpec.
 - Façam commits organizados.
+
+# AULA 07/22/2023
+
+1. O que é o Rails Router e qual o seu papel no framework?
+
+2. O que é o Controller e qual o seu papel?
+
+3. Quais as convenções de nome do controller?
+
+4. Como criar um controller em um documento em branco?
+
+5. Explique qual o fluxo de uso de um controller em uma aplicação rails.
+
+6. Explique quais são os três tipos possíveis de parâmetros em uma aplicação RoR.
+
+7. O que são Strong Parameters? Como eles são definidos em uma aplicação rails?
+
+8. O que é o render e quais as opções de render? Explique cada uma delas.
+
+9. Qual a função do helper redirect_to?
+
+10. O que faz o helper head?
+
+11. Em que consiste o HTML e ERB? Qual a sua notação?
+
+12. Como acessar uma variável do controller a partir da view?
+
+13. Qual a diferença de papeis entre o Action Controller e a ActionView?
+
+14. Qual o papel do url helper e como utilizá-lo? Qual a sintaxe dos 3 tipos?
+
+15. Explique:
+
+a) form_for
+
+b) fields_for
+
+16. O que é um asset pipeline? Qual a sua utilidade?
+
+## DESAFIO
+
+ Desenvolvimento web com Rails - Peeper
+Já tendo a aplicação Rails com os modelos bem estruturados da nossa plataforma de microblogging Peeper, agora é necessário criar as views e controllers para ser possível finalmente visualizar a plataforma!
+
+## Timeline
+O mais importante para o microblog agora é ter um feed, onde seja possível visualizar todos os status que já foram postados e também adiconar novos status. Assim, a plataforma se tornará funcional.
+
+### Views
+
+#### Index (localhost:3000/status)
+- Esta página é o feed, ou seja, uma lista de todos os status.
+- No topo da página é necessário ter um botão para adicionar um status novo. Este botão rediretiona para a página `new`.
+- Os dados do status que serão mostrados no feed são: `display_name` do user autor do status e o `body` do status (mas apenas os primeiros 50 caracteres).
+- Para cada status existem ter 3 ações: responder, visualizar e deletar.
+- Ao responder um status, redirecionar para a página `new`. Importante lembrar que é necessário ter a informação de qual status está sendo respodido para a criação do novo status, eles terão que estar associados.
+- Ao visualizar um status, redirecionar para a página `show`.
+- Ao cliar o botão para deletar um status, este status será apagado do banco de dados.
+
+#### New (localhost:3000/status/new)
+- Nesta página é necessário um formulário com os seguintes campos:
+  - Campo select para selecionar o user que é o autor deste status.
+  - Campo text para escrever o `body`.
+  - Campo para adicionar uma mídia.
+  - Botão "save" para salvar o novo status.
+
+#### Show (localhost:3000/status/1)
+- Esta é a página de detalhes do status.
+- É necessário visualizar todos os campos do status (inclusive as mídias).
+- Por fim, dois botões ao final da página: "back" (que volta para a página `index`) e "edit" (que redireciona para a página de editar o status).
+
+#### Edit (localhost:3000/status/1/edit)
+- Esta é a página de edição.
+- Ela é igual a página de criação de um novo status, mas com o formulário já preenchido. Dica: é possível utilizar uma view compartilhada (partial).
+- Ao final da página, o botão "save" para salvar as edições que foram feitas.
+
+### Controller
+
+- Criar a StatusController.
+- Criar todos os métodos necessários para as actions que foram citadas acima.
+
+### Rotas
+
+- No arquivo `routes.rb` criar as rotas necessárias **sem o uso de resources**. 
+
+## Requisitos
+
+- Como citado acima, não usar resources quando forem criar as rotas.
+- Criar testes de requisição.
+- Façam commits organizados.
+
