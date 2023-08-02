@@ -12,7 +12,73 @@ Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima.
 
 #### Presencial: Todos os sábados.
 
-# AULA 07/15/2023
+# AULA 5 07/01/2023 
+
+1. O que é o GIT
+
+2. Quais os objetivos do GIT
+
+3. Como iniciar um repositório no git
+
+4. quais os estados que o git pode manter os arquivos?
+
+5. Qual o fluxo normal de trabahlo no git
+
+6. Qual a forma de ignorar arquivos no git e quais as vantagens e conveniencias disso
+
+7. Quais os 2 comandos para visualizar os estados os objetos no git
+
+8. O que são branches no git e qual ocomando para iniciar um branch no git
+
+9. O que é o merge e qual a sua utilidade. A comando deve ser dado de qual branch?
+
+10. Como adicionar um repositório remoto em um repositório?
+
+11. Quais são os comandos para interagir com o repositório remoto?
+
+12. O que é o pull request?
+
+## POO
+
+1. O que significa POO e no que consiste.
+
+2. Quais são os 04 principios da POO
+
+3. Descreva:
+  a) classes
+
+  b) objetos
+
+  c) quais tipos de blocos de codigo podemos ter em uma classe ruby
+
+4. Explique sobre a sintaxe ruby:
+
+a) o papel do @
+
+b) métodos públicos e privados
+
+c) 
+# AULA 6 07/08/2023
+
+1. O que são testes automatizados?
+
+2. Quais garantias os testes automatizados proporcionam?
+
+3. O que é o RSPEC
+
+4. Exemplifique a estrutura padrão de um teste?
+
+5. Explique o subject e let do RSPEC e suas peculiaridades.
+
+6. Explique blocos de teste e como podem ser definidos.
+
+7. Quais são os 02 tipos de testes automatizados e qual a descrição de cada um.
+
+8. Explique quantas foram apresentadas e quais são as boas práticas na construção de testes no rails.
+
+9. Escreva testes para os dois trabalhos anteriormente.
+
+# AULA 7 07/15/2023 
 
 1. Explique o que é o Ruby on Rails.
 
@@ -121,7 +187,7 @@ uma mídia pertence a um status.
 - Todos os models devem possuir testes unitários usando RSpec.
 - Façam commits organizados.
 
-# AULA 07/22/2023
+# AULA 8 07/22/2023
 
 1. O que é o Rails Router e qual o seu papel no framework?
 
