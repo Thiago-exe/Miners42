@@ -12,6 +12,274 @@ Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima.
 
 #### Presencial: Todos os sábados.
 
+# AULA 4 
+
+1. Quais são os padrões do Rails para:
+
+a) nomes de variáveis
+
+b) constantes
+
+c) métodos
+
+d) interrogação em métodos
+
+e) exclamação em métodos
+
+f) Syntactics sugar operadores aritmeticos
+
+g) operações inteiro/inteiro float/inteiro float/float
+
+h) Conversão de tipos (CAST)
+
+i) conversão de float para inteiro
+
+j) par ou impar
+
+k) methods
+
+l) string literals
+
+m) escape characters
+
+n) barra inversa, backspace, quebra de linha espaço, tabulação, aspas simples e duplas
+
+o) interpolação
+
+p) performance aspas duplas x aspas simples
+
+q) 3 formas de concatenação
+
+r) substrings
+
+  1) index
+
+  2) intervalo
+
+  3) do final pro inicio
+
+  4) intervalo array dois pontos
+
+  5) com tres pontos 
+
+  6) botar inicial maiuscula
+
+  7) verificar se a string contem uma substring
+
+  8) colocar tudo maiuscula
+
+  9) minuscula
+
+  10) está vazio
+
+  11) comprimento
+
+  12) substituir a primeira ocorrencia
+
+  13) substituir todas
+
+  14) inserir no final
+
+  15) apagar primeira ocorrencia
+
+  16) inserir no inicio
+
+  17) converter para string
+
+s) Simbolos
+
+u) Simbolos x String
+
+v) sobre strings e simbolos
+  1) "string".object_id == "string".object_id
+  2) :symbol.object_id == :symbol.object_id
+  3) "string" == "string"
+
+w) Booleans
+
+x) nil
+
+2. O que são variáveis?
+
+3. Como declarar variaveis no rails
+
+  a) quanto a nomes
+
+  b) tipo de case na escrita
+
+  c) atribuições multiplas
+
+4. Como declarar expressões condicionais
+  
+  a) normal
+  
+  b) em uma linha
+
+  c) condicional ternário
+
+  d) se não e se não se
+
+  e) operadores logicos
+
+  f) outras 2 formas de comparação
+
+5. Explique o que é o Spaceship operator
+
+6. Dê o resultado para cada caso de spaceship operator:
+  
+  a) 5<=> 10
+
+  b) 10 <=> 10
+
+  c) 10 <=> 5
+
+7. cite os 6 operadores logicos 
+
+8. Qual a ordem de precedência dos operadores? 
+
+9. nomeie os operadores da tabela a seguir com as suas funções
+![Alt text](image-1.png)
+
+10. Qual o comportamento do ruby quanto aos trhuthy e falsy?
+
+11. Explique e diga como é a sintaxe para:
+  
+  a) case whem
+
+  b) if pós fixado
+
+  c) unless
+
+  d) operador ternário
+
+12. o que são loops no rails?
+
+13. Explique e diga como é a sintaxe para:
+
+  a) loop
+
+  b) while
+
+  c) until
+
+  d) times
+
+  e) upto e downto
+
+14. O que são ranges em ruby?
+
+15. explique e diga como é a sintaxe para:
+
+  a) range inclusivo
+
+  b) range exclusivo
+
+  c) para letras
+
+  d) casos com range
+
+16. O que são arrays em ruby?
+
+17. explique e diga como é a sintaxe para:
+
+  a) declarar um array atribuição
+  
+  b) declarar um array por metodo
+
+  c)%w e %i
+
+  d) acessar index do array inicio
+
+  e) acessar ordem array a partir do fim
+
+  f) acessar primeiros x
+
+  g) acessar ultimos y
+
+  h) adicionar valor no array 2 formas
+
+  i) remover valor array
+
+  j) shift e unshift
+
+  k) concatenar com operador
+
+  l) concatenar com metodo
+
+  m) remover todas as entradas de um tipo
+
+  n) mostrar os metodos de array
+
+  o) inverter o array
+
+  p) verificar se o valor está contido
+
+  q) juntar os valores em uma string
+
+18. Diga qual o resultado para os seguintes metodos:
+  
+  a) [].empty
+
+  b) [[]].empty?
+
+  c) [1,2].empty?
+
+  d) [1,2,3].lenght
+
+  e) [1,2,3].reverse
+
+  f) [1,2,3].include(3)
+
+  g) [1,2,3].include("3")
+
+  h) [1,2,3].join
+
+  i) [1,2,3].join( "-" )
+
+19. Responda o que é um hash e quais as diferenças para um array.
+
+20. responda sobre hashs:
+
+  a) como declarar um hash
+
+  b) como exibir todas as suas chaves
+
+  c) receber o valor de uma chave
+
+  d) qual valor perguntar por uma chave que nao existe é exibido?
+
+  e) como usar simbolos como chaves e qual a diferença
+
+  f) verificar a existencia de uma chave
+
+  g) verificar a existencia de um valor
+
+  h) juntar dois hashes
+
+21. O que são métodos em Ruby?
+
+22. Responda sobre metodos:
+
+  a) como criar um método
+
+  b) Diga quais são válidos na nomeação de um metodo
+    
+    1) method_name
+
+    2) _name_of_method
+
+    3) 1_method_name
+
+    4) method_27
+
+    5) method?_name
+
+    6) method_name!
+
+    7) begin
+
+    8) begin_count
+
 # AULA 5 07/01/2023 
 
 1. O que é o GIT
@@ -57,7 +325,42 @@ a) o papel do @
 
 b) métodos públicos e privados
 
-c) 
+c) Encapsulamento
+
+d) Herança
+
+e) Modulos
+
+f) Polimorfismo
+
+g) Open Class
+
+h) Self
+
+i) Operações
+
+j) Macros
+
+k) Singleton Methods
+
+l) class definitions
+
+m) define_method
+
+## DESAFIO
+
+Crie o jogo da senha usando POO.
+
+
++ Toda vez que o jogo iniciar o computador irá escolher 4 cores para formar a sequência da senha.
++ Você como jogador terá 10 chances para descobrir qual é a senha correta.
++ Quando você inserir uma tentativa de senha o computador deve retornar quantas cores estão certas e no lugar certo e quantas cores estão certas e no local errado, sem indicar qual cor são essas.
++ Ao final de 10 rodadas você não conseguir acertar a sequência o computador ganha
++ Se acertar a sequência a qualquer momento, você ganha
++ Use os conceitos de POO para gerenciar as interações entre os objetos.
++ Extra: Deixe o código genérico podendo receber quantidades de rodadas, quantidade de cores da sequência e as cores dos pins.
+
+
 # AULA 6 07/08/2023
 
 1. O que são testes automatizados?
