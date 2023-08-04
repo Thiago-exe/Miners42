@@ -280,6 +280,62 @@ x) nil
 
     8) begin_count
 
+  c) Como declarar multiplos parâmetros
+
+  d) Encadear pelo menos 4 métodos
+
+  e) metodos predicados
+
+  f) métodos bang
+
+23. Responda sobre os enumeráveis
+
+  a) O que são enumeráveis?
+
+  b) como utilizar o método select
+
+  c) método each
+
+  d) each com hash separando chave e valor
+
+  e) utilizando o par
+
+  f) each with index
+
+  g) map
+
+  h) reduce
+
+  i) include
+
+  j) any
+
+  k) all
+
+  l) none
+
+24. Crie um array com 5 nomes. A partir disso crie um método onde seja possível selecionar de que forma iremos retornar um vetor com todos os nomes menos o que o usuário não desejar e imprimir na tela. As formas são as seguintes: 
++ por loop
++ select
++ each linha unica
++ each do
++ com hash chave valor
++ com o par do hash
++ each with index
++ Map
++ pluck
++ reduce
+
+## DESAFIO
+
+Escreva um método que implemente o algoritmo da cifra de césar:
+Caso a letra ultrapasse do “z” retorne a contagem para o “a”
+Mantenha letra maiúsculas e minúsculas
+
+## DESAFIO EXTRA
+
+https://shorturl.at/tMPWZ
+
 # AULA 5 07/01/2023 
 
 1. O que é o GIT
