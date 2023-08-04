@@ -1,6 +1,6 @@
 # Course description:
 
-Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima.
+Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima. Questões criadas com base nos slides do curso CodeMiners42
 
 ## Pelos números
 
@@ -12,7 +12,12 @@ Curso Ruby e Ruby on Rails codeminers42 do Fábio Makima.
 
 #### Presencial: Todos os sábados.
 
-# AULA 4 
+# AULA 4
+
+- Slide 21 tem 2 erros: 1 é "he77o"gsub falta o ponto e o .delete deleta todas as ocorrencias do valor entao a saida deveria ser "Heo Word"
+  tem erro no slide 41: o spaceship retorna -1 se o valor da esquerda for menor, 0 iguais e 1 se o valor da esquerda é maior (ou o valor da direita menor)
+  erro no slide 46: valor zero é false no ruby
+  erro no slide 48: sintaxe do case when é when when when para cada caso, não case.
 
 1. Quais são os padrões do Rails para:
 
@@ -52,218 +57,239 @@ q) 3 formas de concatenação
 
 r) substrings
 
-  1) index
+1. index
 
-  2) intervalo
+2. intervalo
 
-  3) do final pro inicio
+3. do final pro inicio
 
-  4) intervalo array dois pontos
+4. intervalo array dois pontos
 
-  5) com tres pontos 
+5. com tres pontos
 
-  6) botar inicial maiuscula
+6. botar inicial maiuscula
 
-  7) verificar se a string contem uma substring
+7. verificar se a string contem uma substring
 
-  8) colocar tudo maiuscula
+8. colocar tudo maiuscula
 
-  9) minuscula
+9. minuscula
 
-  10) está vazio
+10. está vazio
 
-  11) comprimento
+11. comprimento
 
-  12) substituir a primeira ocorrencia
+12. substituir a primeira ocorrencia
 
-  13) substituir todas
+13. substituir todas
 
-  14) inserir no final
+14. inserir no final
 
-  15) apagar primeira ocorrencia
+15. apagar primeira ocorrencia
 
-  16) inserir no inicio
+16. inserir no inicio
 
-  17) converter para string
+17. converter para string
 
 s) Simbolos
+
+t) exponenciacao
 
 u) Simbolos x String
 
 v) sobre strings e simbolos
-  1) "string".object_id == "string".object_id
-  2) :symbol.object_id == :symbol.object_id
-  3) "string" == "string"
+
+1. "string".object_id == "string".object_id
+
+2. :symbol.object_id == :symbol.object_id
+
+3. "string" == "string"
 
 w) Booleans
 
 x) nil
 
+y) quais são os 8 operadores de assignment?
+
 2. O que são variáveis?
 
 3. Como declarar variaveis no rails
 
-  a) quanto a nomes
+a) quanto a nomes
 
-  b) tipo de case na escrita
+b) tipo de case na escrita
 
-  c) atribuições multiplas
+c) atribuições multiplas
+
+d) desestruturação
+
+e) trocar dois valores usando desestruturação
 
 4. Como declarar expressões condicionais
-  
-  a) normal
-  
-  b) em uma linha
 
-  c) condicional ternário
+a) normal
 
-  d) se não e se não se
+b) em uma linha
 
-  e) operadores logicos
+c) condicional ternário
 
-  f) outras 2 formas de comparação
+d) se não e se não se
+
+e) operadores logicos
+
+f) outras 2 formas de comparação
+
+g) diferença entre avaliar so o valor e avaliar o valor e o tipo e se sao exatamente o mesmo objeto.
 
 5. Explique o que é o Spaceship operator
 
 6. Dê o resultado para cada caso de spaceship operator:
-  
-  a) 5<=> 10
 
-  b) 10 <=> 10
+a) 5<=> 10
 
-  c) 10 <=> 5
+b) 10 <=> 10
 
-7. cite os 6 operadores logicos 
+c) 10 <=> 5
 
-8. Qual a ordem de precedência dos operadores? 
+7. cite os 6 operadores logicos
+
+8. Qual a ordem de precedência dos operadores?
 
 9. nomeie os operadores da tabela a seguir com as suas funções
-![Alt text](image-1.png)
+   ![Alt text](image-1.png)
 
-10. Qual o comportamento do ruby quanto aos trhuthy e falsy?
+10. Qual o comportamento do ruby quanto aos thruthy e falsy?
 
 11. Explique e diga como é a sintaxe para:
-  
-  a) case whem
 
-  b) if pós fixado
+a) case whem
 
-  c) unless
+b) if pós fixado
 
-  d) operador ternário
+c) unless
+
+d) operador ternário
 
 12. o que são loops no rails?
 
 13. Explique e diga como é a sintaxe para:
 
-  a) loop
+a) loop
 
-  b) while
+b) while
 
-  c) until
+c) until
 
-  d) times
+d) times
 
-  e) upto e downto
+e) upto e downto
 
 14. O que são ranges em ruby?
 
 15. explique e diga como é a sintaxe para:
 
-  a) range inclusivo
+a) range inclusivo
 
-  b) range exclusivo
+b) range exclusivo
 
-  c) para letras
+c) para letras
 
-  d) casos com range
+d) casos com range
 
 16. O que são arrays em ruby?
 
 17. explique e diga como é a sintaxe para:
 
-  a) declarar um array atribuição
-  
-  b) declarar um array por metodo
+a) declarar um array atribuição
 
-  c)%w e %i
+b) declarar um array por metodo
 
-  d) acessar index do array inicio
+c)%w e %i
 
-  e) acessar ordem array a partir do fim
+d) acessar index do array inicio
 
-  f) acessar primeiros x
+e) acessar ordem array a partir do fim
 
-  g) acessar ultimos y
+f) acessar primeiros x
 
-  h) adicionar valor no array 2 formas
+g) acessar ultimos y
 
-  i) remover valor array
+h) adicionar valor no array 2 formas
 
-  j) shift e unshift
+i) remover valor array
 
-  k) concatenar com operador
+j) shift e unshift
 
-  l) concatenar com metodo
+k) concatenar com operador
 
-  m) remover todas as entradas de um tipo
+l) concatenar com metodo
 
-  n) mostrar os metodos de array
+m) remover todas as entradas de um tipo
 
-  o) inverter o array
+n) mostrar os metodos de array
 
-  p) verificar se o valor está contido
+o) inverter o array
 
-  q) juntar os valores em uma string
+p) verificar se o valor está contido
+
+q) unir os espaços do array em uma unica string
+
+r) criar um array com x entradas repetidas
+
+s) criar um array com esse valor repetido x vezes
+
+u) criar um array com x espaços vazios.
+
+v) unir os espaços do array em uma unica string separando por outra string 
 
 18. Diga qual o resultado para os seguintes metodos:
-  
-  a) [].empty
 
-  b) [[]].empty?
+a) [].empty
 
-  c) [1,2].empty?
+b) [[]].empty?
 
-  d) [1,2,3].lenght
+c) [1,2].empty?
 
-  e) [1,2,3].reverse
+d) [1,2,3].lenght
 
-  f) [1,2,3].include(3)
+e) [1,2,3].reverse
 
-  g) [1,2,3].include("3")
+f) [1,2,3].include(3)
 
-  h) [1,2,3].join
+g) [1,2,3].include("3")
 
-  i) [1,2,3].join( "-" )
+h) [1,2,3].join
+
+i) [1,2,3].join( "-" )
 
 19. Responda o que é um hash e quais as diferenças para um array.
 
 20. responda sobre hashs:
 
-  a) como declarar um hash
+a) como declarar um hash
 
-  b) como exibir todas as suas chaves
+b) como exibir todas as suas chaves
 
-  c) receber o valor de uma chave
+c) receber o valor de uma chave
 
-  d) qual valor perguntar por uma chave que nao existe é exibido?
+d) qual valor perguntar por uma chave que nao existe é exibido?
 
-  e) como usar simbolos como chaves e qual a diferença
+e) como usar simbolos como chaves e qual a diferença
 
-  f) verificar a existencia de uma chave
+f) verificar a existencia de uma chave
 
-  g) verificar a existencia de um valor
+g) verificar a existencia de um valor
 
-  h) juntar dois hashes
+h) juntar dois hashes
 
 21. O que são métodos em Ruby?
 
 22. Responda sobre metodos:
 
-  a) como criar um método
+a) como criar um método
 
-  b) Diga quais são válidos na nomeação de um metodo
-    
+b) Diga quais são válidos na nomeação de um metodo
+
     1) method_name
 
     2) _name_of_method
@@ -280,51 +306,52 @@ x) nil
 
     8) begin_count
 
-  c) Como declarar multiplos parâmetros
+c) Como declarar multiplos parâmetros
 
-  d) Encadear pelo menos 4 métodos
+d) Encadear pelo menos 4 métodos
 
-  e) metodos predicados
+e) metodos predicados
 
-  f) métodos bang
+f) métodos bang
 
 23. Responda sobre os enumeráveis
 
-  a) O que são enumeráveis?
+a) O que são enumeráveis?
 
-  b) como utilizar o método select
+b) como utilizar o método select
 
-  c) método each
+c) método each
 
-  d) each com hash separando chave e valor
+d) each com hash separando chave e valor
 
-  e) utilizando o par
+e) utilizando o par
 
-  f) each with index
+f) each with index
 
-  g) map
+g) map
 
-  h) reduce
+h) reduce
 
-  i) include
+i) include
 
-  j) any
+j) any
 
-  k) all
+k) all
 
-  l) none
+l) none
 
-24. Crie um array com 5 nomes. A partir disso crie um método onde seja possível selecionar de que forma iremos retornar um vetor com todos os nomes menos o que o usuário não desejar e imprimir na tela. As formas são as seguintes: 
-+ por loop
-+ select
-+ each linha unica
-+ each do
-+ com hash chave valor
-+ com o par do hash
-+ each with index
-+ Map
-+ pluck
-+ reduce
+24. Crie um array com 5 nomes. A partir disso crie um método onde seja possível selecionar de que forma iremos retornar um vetor com todos os nomes menos o que o usuário não desejar e imprimir na tela. As formas são as seguintes:
+
+- por loop
+- select
+- each linha unica
+- each do
+- com hash chave valor
+- com o par do hash
+- each with index
+- Map
+- pluck
+- reduce
 
 ## DESAFIO
 
@@ -336,7 +363,7 @@ Mantenha letra maiúsculas e minúsculas
 
 https://shorturl.at/tMPWZ
 
-# AULA 5 07/01/2023 
+# AULA 5 07/01/2023
 
 1. O que é o GIT
 
@@ -369,11 +396,11 @@ https://shorturl.at/tMPWZ
 2. Quais são os 04 principios da POO
 
 3. Descreva:
-  a) classes
+   a) classes
 
-  b) objetos
+b) objetos
 
-  c) quais tipos de blocos de codigo podemos ter em uma classe ruby
+c) quais tipos de blocos de codigo podemos ter em uma classe ruby
 
 4. Explique sobre a sintaxe ruby:
 
@@ -407,15 +434,13 @@ m) define_method
 
 Crie o jogo da senha usando POO.
 
-
-+ Toda vez que o jogo iniciar o computador irá escolher 4 cores para formar a sequência da senha.
-+ Você como jogador terá 10 chances para descobrir qual é a senha correta.
-+ Quando você inserir uma tentativa de senha o computador deve retornar quantas cores estão certas e no lugar certo e quantas cores estão certas e no local errado, sem indicar qual cor são essas.
-+ Ao final de 10 rodadas você não conseguir acertar a sequência o computador ganha
-+ Se acertar a sequência a qualquer momento, você ganha
-+ Use os conceitos de POO para gerenciar as interações entre os objetos.
-+ Extra: Deixe o código genérico podendo receber quantidades de rodadas, quantidade de cores da sequência e as cores dos pins.
-
+- Toda vez que o jogo iniciar o computador irá escolher 4 cores para formar a sequência da senha.
+- Você como jogador terá 10 chances para descobrir qual é a senha correta.
+- Quando você inserir uma tentativa de senha o computador deve retornar quantas cores estão certas e no lugar certo e quantas cores estão certas e no local errado, sem indicar qual cor são essas.
+- Ao final de 10 rodadas você não conseguir acertar a sequência o computador ganha
+- Se acertar a sequência a qualquer momento, você ganha
+- Use os conceitos de POO para gerenciar as interações entre os objetos.
+- Extra: Deixe o código genérico podendo receber quantidades de rodadas, quantidade de cores da sequência e as cores dos pins.
 
 # AULA 6 07/08/2023
 
@@ -437,7 +462,7 @@ Crie o jogo da senha usando POO.
 
 9. Escreva testes para os dois trabalhos anteriormente.
 
-# AULA 7 07/15/2023 
+# AULA 7 07/15/2023
 
 1. Explique o que é o Ruby on Rails.
 
@@ -586,15 +611,17 @@ b) fields_for
 
 ## DESAFIO
 
- Desenvolvimento web com Rails - Peeper
+Desenvolvimento web com Rails - Peeper
 Já tendo a aplicação Rails com os modelos bem estruturados da nossa plataforma de microblogging Peeper, agora é necessário criar as views e controllers para ser possível finalmente visualizar a plataforma!
 
 ## Timeline
+
 O mais importante para o microblog agora é ter um feed, onde seja possível visualizar todos os status que já foram postados e também adiconar novos status. Assim, a plataforma se tornará funcional.
 
 ### Views
 
 #### Index (localhost:3000/status)
+
 - Esta página é o feed, ou seja, uma lista de todos os status.
 - No topo da página é necessário ter um botão para adicionar um status novo. Este botão rediretiona para a página `new`.
 - Os dados do status que serão mostrados no feed são: `display_name` do user autor do status e o `body` do status (mas apenas os primeiros 50 caracteres).
@@ -604,6 +631,7 @@ O mais importante para o microblog agora é ter um feed, onde seja possível vis
 - Ao cliar o botão para deletar um status, este status será apagado do banco de dados.
 
 #### New (localhost:3000/status/new)
+
 - Nesta página é necessário um formulário com os seguintes campos:
   - Campo select para selecionar o user que é o autor deste status.
   - Campo text para escrever o `body`.
@@ -611,11 +639,13 @@ O mais importante para o microblog agora é ter um feed, onde seja possível vis
   - Botão "save" para salvar o novo status.
 
 #### Show (localhost:3000/status/1)
+
 - Esta é a página de detalhes do status.
 - É necessário visualizar todos os campos do status (inclusive as mídias).
 - Por fim, dois botões ao final da página: "back" (que volta para a página `index`) e "edit" (que redireciona para a página de editar o status).
 
 #### Edit (localhost:3000/status/1/edit)
+
 - Esta é a página de edição.
 - Ela é igual a página de criação de um novo status, mas com o formulário já preenchido. Dica: é possível utilizar uma view compartilhada (partial).
 - Ao final da página, o botão "save" para salvar as edições que foram feitas.
@@ -627,11 +657,10 @@ O mais importante para o microblog agora é ter um feed, onde seja possível vis
 
 ### Rotas
 
-- No arquivo `routes.rb` criar as rotas necessárias **sem o uso de resources**. 
+- No arquivo `routes.rb` criar as rotas necessárias **sem o uso de resources**.
 
 ## Requisitos
 
 - Como citado acima, não usar resources quando forem criar as rotas.
 - Criar testes de requisição.
 - Façam commits organizados.
-
