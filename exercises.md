@@ -240,7 +240,7 @@ s) criar um array com esse valor repetido x vezes
 
 u) criar um array com x espaços vazios.
 
-v) unir os espaços do array em uma unica string separando por outra string 
+v) unir os espaços do array em uma unica string separando por outra string
 
 18. Diga qual o resultado para os seguintes metodos:
 
@@ -313,6 +313,8 @@ d) Encadear pelo menos 4 métodos
 e) metodos predicados
 
 f) métodos bang
+
+g) definir um valor padrao para parametros
 
 23. Responda sobre os enumeráveis
 
