@@ -41,7 +41,7 @@ i) conversão de float para inteiro
 
 j) par ou impar
 
-k) methods
+k) .methods
 
 l) string literals
 
@@ -55,7 +55,7 @@ p) performance aspas duplas x aspas simples
 
 q) 3 formas de concatenação
 
-r) substrings
+r) sobre substrings responda:
 
 1. index
 
@@ -69,21 +69,21 @@ r) substrings
 
 6. botar inicial maiuscula
 
-7. verificar se a string contem uma substring
+*7. verificar se a string contem uma substring
 
 8. colocar tudo maiuscula
 
 9. minuscula
 
-10. está vazio
+*10. está vazio
 
 11. comprimento
 
-12. substituir a primeira ocorrencia
+*12. substituir a primeira ocorrencia
 
-13. substituir todas
+*13. substituir todas
 
-14. inserir no final
+*14. inserir no final
 
 15. apagar primeira ocorrencia
 
@@ -91,11 +91,11 @@ r) substrings
 
 17. converter para string
 
-s) Simbolos
+*s) Simbolos
 
 t) exponenciacao
 
-u) Simbolos x String
+* u) Simbolos x String
 
 v) sobre strings e simbolos
 
@@ -107,23 +107,23 @@ v) sobre strings e simbolos
 
 w) Booleans
 
-x) nil
+*x) nil
 
-y) quais são os 8 operadores de assignment?
+*y) quais são os 8 operadores de assignment?
 
 2. O que são variáveis?
 
-3. Como declarar variaveis no rails
+3. Sobre variaveis no rails responda o seguinte:
 
-a) quanto a nomes
+a) como se declara quanto a nomes
 
 b) tipo de case na escrita
 
 c) atribuições multiplas
 
-d) desestruturação
+*d) desestruturação
 
-e) trocar dois valores usando desestruturação
+*e) trocar dois valores usando desestruturação
 
 4. Como declarar expressões condicionais
 
@@ -341,6 +341,8 @@ j) any
 k) all
 
 l) none
+
+m) faça um for enumerável
 
 24. Crie um array com 5 nomes. A partir disso crie um método onde seja possível selecionar de que forma iremos retornar um vetor com todos os nomes menos o que o usuário não desejar e imprimir na tela. As formas são as seguintes:
 
