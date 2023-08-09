@@ -127,15 +127,15 @@ c) atribuições multiplas
 
 4. Como declarar expressões condicionais
 
-a) normal
+*a) normal
 
-b) em uma linha
+*b) em uma linha
 
 c) condicional ternário
 
-d) se não e se não se
+*d) se não e se não se
 
-e) operadores logicos
+*e) operadores logicos
 
 f) outras 2 formas de comparação
 

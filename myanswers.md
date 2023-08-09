@@ -105,3 +105,21 @@ c) em outras linguagens é comum existir a sintaxe int a,b = 1. No ruby como nã
 d) desestruturação é como se faz a atribuição quebrando outro valor. Isso funciona pra strings, arrays, hashs, até objetos (é o que é feito quando voce faz |variavel| do). a,b = "abc" resultara em a= "a" e b="b".
 
 e) a,b = b,a resulta em a= "b" e b = "a".
+
+4) 
+
+a) if (condicao) end
+
+b) print 10 if condicao
+
+c) condicao ? sim : nao
+
+d) if condicao else end e if elseif end
+
+e) >= <= 
+
+f) eql?, ==, equal?
+
+g) == avalia só o valor, eql? avalia o tipo e o valor e equal se são exatamente o mesmo objeto, se tem o mesmo endereço de memória
+
+5. o spaceship operator é um operador de comparação 
